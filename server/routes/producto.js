@@ -6,7 +6,7 @@ let app = express();
 
 const _ = require('underscore');
 
-let Producto = require('../models/producto');
+const Producto = require('../models/producto');
 const Categoria = require('../models/categoria');
 const Usuario = require('../models/usuario');
 
